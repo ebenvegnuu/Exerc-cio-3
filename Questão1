@@ -1,0 +1,40 @@
+public class Alunos {
+private static String matricula;
+private static String nome;
+private static float nota1;
+private static float nota2;
+private static float trabalho;
+
+public static String getMatricula() {
+		return matricula;
+	}
+	public void setMatricula(String matricula) {
+		Alunos.matricula = matricula;
+	}
+	public static float getNota1() {
+		return nota1;
+	}
+	public void setNota1(float nota1) {
+		Alunos.nota1 = nota1;
+	}
+	public static String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		Alunos.nome = nome;
+	}
+	public static float getNota2() {
+		return nota2;
+	}
+	public void setNota2(float nota2) {
+		Alunos.nota2 = nota2;
+	}
+	public static float getTrabalho() {
+		return trabalho;
+	}
+	public void setTrabalho(float trabalho) {
+		Alunos.trabalho = trabalho;
+	}
+
+ media = ((nota1 *2,5 + nota2 *2,5 + Trabalho*2)/3)}
+}
